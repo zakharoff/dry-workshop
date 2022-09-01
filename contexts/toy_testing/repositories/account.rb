@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-module Testing
+module ToyTesting
   module Repositories
-    class Test
-      # get a tests
+    class Account
+      # get an account
     end
   end
 end

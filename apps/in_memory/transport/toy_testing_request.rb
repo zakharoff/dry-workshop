@@ -2,11 +2,11 @@
 
 module InMemory
   module Transport
-    class TestingRequest
-      # include Import[service: 'contexts.testing.service']
+    class ToyTestingRequest
+      # include Import[service: 'contexts.toy_testing.service']
 
       def call
-        puts 'Hello from in_memory testing request'
+        puts 'Hello from in_memory toy testing request'
         puts 'Call logic:'
         puts
         sleep 0.5

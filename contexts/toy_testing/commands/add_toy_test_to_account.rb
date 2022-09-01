@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-module Testing
+module ToyTesting
   module Commands
-    class AddTestToAccount
+    class AddToyTestToAccount
       include Import[
-        account_repo: 'contexts.testing.repositories.account',
-        toy_repo: 'contexts.testing.repositories.toy'.
+        account_repo: 'contexts.toy_testing.repositories.account',
+        toy_repo: 'contexts.toy_testing.repositories.toy'.
       ]
 
       def call(account_id:, cat_toy_id:)

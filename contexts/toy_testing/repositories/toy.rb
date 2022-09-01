@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Testing
+module ToyTesting
   module Repositories
     class Toy
       # get a toy

@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-module Testing
+module ToyTesting
   module Queries
     class ShowToysAwaitingTest
       include Import[
-        account_repo: 'contexts.testing.repositories.account',
-        test_repo: 'contexts.testing.repositories.test'
+        account_repo: 'contexts.toy_testing.repositories.account',
+        test_repo: 'contexts.toy_testing.repositories.test'
       ]
 
       def call(account_id:)

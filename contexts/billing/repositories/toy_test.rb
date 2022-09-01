@@ -2,7 +2,7 @@
 
 module Billing
   module Repositories
-    class Test
+    class ToyTest
       # get completed tests
     end
   end

@@ -2,9 +2,9 @@
 
 module Billing
   module Commands
-    class GetComplitedTestsAndPaid
+    class GetComplitedToyTestsAndPaid
       include Import[
-        account_repo: 'contexts.testing.repositories.account',
+        account_repo: 'contexts.toy_testing.repositories.account',
         test_repo: 'contexts.billing.repositories.test'
       ]
 
